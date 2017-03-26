@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Grade Tracker</string>
+    <string name="feature1">GPA Calculator</string>
+    <string name="feature3">TARGET</string>
+    <string name="feature4">CPA_PERFOMANCE</string>
+    <string name="back_button">BACK</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="your_target_cpa">YOUR TARGET CPA</string>
+    <string name="target">TARGET</string>
+    <string name="you_are_suppose_to_get_cpa">You are suppose to get(GPA) :</string>
+    <string name="notify_me">NOTIFY ME</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

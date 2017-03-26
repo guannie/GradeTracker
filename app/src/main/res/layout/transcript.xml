@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="my.ceraf.database.Transcript">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Semester 1"
+        android:id="@+id/sem_no"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:id="@+id/textView"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/sem_no"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nurul Nadira"
+        android:id="@+id/nama_disp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignRight="@+id/sem_no"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toRightOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matrics. No: "
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A14CS0123"
+        android:id="@+id/matric_disp"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject Code          "
+        android:id="@+id/sub_code"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credit Hour    "
+        android:id="@+id/c_hour"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/sub_code"
+        android:layout_toRightOf="@+id/sub_code"
+        android:layout_toEndOf="@+id/sub_code" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grade"
+        android:id="@+id/grade"
+        android:layout_alignTop="@+id/c_hour"
+        android:layout_toRightOf="@+id/c_hour"
+        android:layout_toEndOf="@+id/c_hour"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCSJ1233"
+        android:id="@+id/sub_2"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/sub_1"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCSR1233"
+        android:id="@+id/sub_3"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/sub_2"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCSB1233"
+        android:id="@+id/sub_1"
+        android:layout_below="@+id/sub_code"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/chour_1"
+        android:layout_below="@+id/c_hour"
+        android:layout_toRightOf="@+id/sub_code"
+        android:layout_toEndOf="@+id/sub_code" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/chour_2"
+        android:layout_below="@+id/chour_1"
+        android:layout_alignLeft="@+id/chour_1"
+        android:layout_alignStart="@+id/chour_1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/chour_3"
+        android:layout_below="@+id/chour_2"
+        android:layout_alignLeft="@+id/chour_2"
+        android:layout_alignStart="@+id/chour_2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A+"
+        android:id="@+id/grade_1"
+        android:layout_below="@+id/c_hour"
+        android:layout_toRightOf="@+id/c_hour"
+        android:layout_toEndOf="@+id/c_hour" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A+"
+        android:id="@+id/grade_2"
+        android:layout_below="@+id/grade_1"
+        android:layout_alignLeft="@+id/grade_1"
+        android:layout_alignStart="@+id/grade_1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A+"
+        android:id="@+id/grade_3"
+        android:layout_below="@+id/grade_2"
+        android:layout_toRightOf="@+id/c_hour"
+        android:layout_toEndOf="@+id/c_hour" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Credit Hour: "
+        android:id="@+id/textView17"
+        android:layout_marginTop="72dp"
+        android:layout_below="@+id/sub_3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPA: "
+        android:id="@+id/textView18"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView17"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Honour Class: "
+        android:id="@+id/textView19"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPA: "
+        android:id="@+id/textView20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView18"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:id="@+id/total_credit"
+        android:layout_above="@+id/gpa"
+        android:layout_alignStart="@+id/sem_no" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.00"
+        android:id="@+id/cpa"
+        android:layout_above="@+id/textView19"
+        android:layout_toRightOf="@+id/textView18"
+        android:layout_toEndOf="@+id/textView18" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Class"
+        android:id="@+id/textView24"
+        android:layout_below="@+id/cpa"
+        android:layout_toRightOf="@+id/textView19"
+        android:layout_toEndOf="@+id/textView19" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.00"
+        android:id="@+id/gpa"
+        android:layout_above="@+id/textView20"
+        android:layout_toRightOf="@+id/textView18"
+        android:layout_toEndOf="@+id/textView18" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCSV1233"
+        android:id="@+id/sub_4"
+        android:layout_below="@+id/sub_3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/chour_4"
+        android:layout_below="@+id/chour_3"
+        android:layout_alignLeft="@+id/chour_3"
+        android:layout_alignStart="@+id/chour_3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A+"
+        android:id="@+id/grade_4"
+        android:layout_below="@+id/grade_3"
+        android:layout_alignLeft="@+id/grade_3"
+        android:layout_alignStart="@+id/grade_3" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Sem"
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="26dp" />
+
+
+</RelativeLayout>
